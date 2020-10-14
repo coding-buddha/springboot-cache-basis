@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+
+    <appender name="basisFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">>
+        <file>logback/springboot-cache-basis.log</file>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{ISO8601} [%thread] %-5level %logger{36} : %msg%n%ex{full, DISPLAY_EX_EVAL}</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logback/backup/springboot-cache-basis.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+            <maxFileSize>50MB</maxFileSize>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="basisFileAppender" />
+    </root>
+</configuration>
