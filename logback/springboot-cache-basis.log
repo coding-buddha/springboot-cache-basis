@@ -1,253 +1,115 @@
-10-14 13:54:31.194 [main] INFO  e.p.study.demo.DemoApplication - Starting DemoApplication on developer1997 with PID 14384 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-10-14 13:54:31.197 [main] INFO  e.p.study.demo.DemoApplication - No active profile set, falling back to default profiles: default
-10-14 13:54:31.706 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-10-14 13:54:31.712 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-10-14 13:54:31.727 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
-10-14 13:54:31.797 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-10-14 13:54:31.797 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 546 ms
-10-14 13:54:31.913 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-10-14 13:54:32.031 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-10-14 13:54:32.034 [main] INFO  e.p.study.demo.DemoApplication - Started DemoApplication in 1.133 seconds (JVM running for 1.696)
-10-14 13:55:24.181 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-10-14 13:55:24.181 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-10-14 13:55:24.184 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
-10-14 13:55:24.196 [http-nio-8080-exec-1] INFO  e.p.study.demo.index.IndexController - info => index : 인포
-2020-10-14 13:56:37,266 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 16012 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 13:56:37,269 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 13:56:37,799 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 13:56:37,805 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 13:56:37,805 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 13:56:37,866 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 13:56:37,867 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 541 ms
-2020-10-14 13:56:37,962 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 13:56:38,065 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 13:56:38,067 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.112 seconds (JVM running for 1.669)
-2020-10-14 13:58:27,897 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 9808 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 13:58:27,899 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 13:58:28,430 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 13:58:28,436 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 13:58:28,436 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 13:58:28,498 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 13:58:28,499 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 544 ms
-2020-10-14 13:58:28,596 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 13:58:28,703 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 13:58:28,705 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.095 seconds (JVM running for 1.656)
-2020-10-14 14:57:06,627 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 9076 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 14:57:06,630 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 14:57:07,265 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 14:57:07,270 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 14:57:07,270 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 14:57:07,341 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 14:57:07,341 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 659 ms
-2020-10-14 14:57:07,515 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 14:57:07,634 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 14:57:07,667 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 14:57:07,669 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.364 seconds (JVM running for 1.926)
-2020-10-14 14:57:08,239 [RMI TCP Connection(2)-10.212.134.106] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-14 14:57:08,240 [RMI TCP Connection(2)-10.212.134.106] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
-2020-10-14 14:57:08,243 [RMI TCP Connection(2)-10.212.134.106] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 3 ms
-2020-10-14 15:01:52,242 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 15220 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 15:01:52,244 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 15:01:52,871 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 15:01:52,877 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 15:01:52,877 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 15:01:52,949 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 15:01:52,950 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 652 ms
-2020-10-14 15:01:53,095 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 15:01:53,205 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator'
-2020-10-14 15:01:53,239 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 15:01:53,241 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.309 seconds (JVM running for 1.87)
-2020-10-14 15:04:32,275 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 15440 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 15:04:32,277 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 15:04:32,888 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 15:04:32,893 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 15:04:32,893 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 15:04:32,961 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 15:04:32,962 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 632 ms
-2020-10-14 15:04:33,106 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 15:04:33,215 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator'
-2020-10-14 15:04:33,249 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 15:04:33,251 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.284 seconds (JVM running for 1.865)
-2020-10-14 15:05:34,832 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-14 15:05:34,832 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
-2020-10-14 15:05:34,836 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 3 ms
-2020-10-14 15:05:35,361 [Thread-15] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-14 15:05:43,448 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 15832 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 15:05:43,450 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 15:05:44,060 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 15:05:44,065 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 15:05:44,066 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 15:05:44,137 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 15:05:44,137 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 634 ms
-2020-10-14 15:05:44,291 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 15:05:44,410 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator'
-2020-10-14 15:05:44,443 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 15:05:44,445 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.293 seconds (JVM running for 1.852)
-2020-10-14 15:05:48,057 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-14 15:05:48,057 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
-2020-10-14 15:05:48,060 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 3 ms
-2020-10-14 15:05:48,599 [Thread-13] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-14 15:07:35,897 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 8916 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 15:07:35,900 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 15:07:36,544 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 15:07:36,549 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 15:07:36,549 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 15:07:36,622 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 15:07:36,623 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 668 ms
-2020-10-14 15:07:36,792 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 15:07:36,912 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 15:07:36,948 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 15:07:36,950 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.374 seconds (JVM running for 1.96)
-2020-10-14 21:18:48,405 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 9848 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:18:48,407 [main] INFO  e.p.study.demo.DemoApplication : No active profile set, falling back to default profiles: default
-2020-10-14 21:18:49,154 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 21:18:49,160 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:18:49,160 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:18:49,225 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:18:49,225 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 764 ms
-2020-10-14 21:18:49,423 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:18:49,551 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:18:49,624 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 21:18:49,625 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.538 seconds (JVM running for 2.076)
-2020-10-14 21:19:10,357 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-14 21:19:10,357 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
-2020-10-14 21:19:10,361 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms
-2020-10-14 21:19:10,383 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-2020-10-14 21:19:10,389 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
-2020-10-14 21:19:18,375 [http-nio-8080-exec-3] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-2020-10-14 21:19:21,206 [http-nio-8080-exec-4] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-2020-10-14 21:19:25,762 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-2020-10-14 21:19:25,763 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
-2020-10-14 21:29:24,429 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 13520 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:29:24,431 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
-2020-10-14 21:29:25,171 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
-2020-10-14 21:29:25,176 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:29:25,177 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:29:25,235 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:29:25,235 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 743 ms
-2020-10-14 21:29:25,423 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:29:25,618 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:29:25,657 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8082 (http) with context path ''
-2020-10-14 21:29:25,659 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.556 seconds (JVM running for 2.178)
-2020-10-14 21:29:31,399 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 2596 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:29:31,401 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: test
-2020-10-14 21:29:32,156 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
-2020-10-14 21:29:32,162 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:29:32,162 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:29:32,221 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:29:32,221 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 759 ms
-2020-10-14 21:29:32,424 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:29:32,596 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:29:32,627 [main] INFO  o.a.catalina.core.StandardService : Stopping service [Tomcat]
-2020-10-14 21:29:32,631 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-10-14 21:29:32,635 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8082 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
-
-2020-10-14 21:29:32,637 [main] WARN  o.s.b.f.s.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
-2020-10-14 21:29:32,638 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:30:59,718 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 13104 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:30:59,720 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
-2020-10-14 21:31:00,447 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 21:31:00,453 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:31:00,453 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:31:00,511 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:31:00,512 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 735 ms
-2020-10-14 21:31:00,701 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:31:00,891 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:31:00,934 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 21:31:00,936 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.545 seconds (JVM running for 2.083)
-2020-10-14 21:31:02,374 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 7908 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:31:02,377 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: test
-2020-10-14 21:31:03,095 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8082 (http)
-2020-10-14 21:31:03,101 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:31:03,101 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:31:03,163 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:31:03,163 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 727 ms
-2020-10-14 21:31:03,374 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:31:03,558 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:31:03,598 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8082 (http) with context path ''
-2020-10-14 21:31:03,600 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.565 seconds (JVM running for 2.101)
-2020-10-14 21:32:02,020 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-14 21:32:02,020 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
-2020-10-14 21:32:02,024 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms
-2020-10-14 21:32:02,044 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:02,050 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
-2020-10-14 21:32:11,151 [http-nio-8080-exec-3] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:12,054 [http-nio-8080-exec-2] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:12,940 [http-nio-8080-exec-4] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:13,814 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:34,888 [http-nio-8080-exec-6] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:37,377 [http-nio-8080-exec-7] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:37,377 [http-nio-8080-exec-7] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
-2020-10-14 21:32:42,763 [http-nio-8080-exec-8] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:43,305 [http-nio-8080-exec-9] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:32:43,721 [http-nio-8080-exec-10] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:33:04,794 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-14 21:33:04,794 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
-2020-10-14 21:33:04,798 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms
-2020-10-14 21:33:04,819 [http-nio-8082-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:33:04,824 [http-nio-8082-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
-2020-10-14 21:33:30,623 [http-nio-8082-exec-3] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
-
-2020-10-14 21:33:30,623 [http-nio-8082-exec-3] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
-2020-10-14 21:49:00,044 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 984 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:49:00,047 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
-2020-10-14 21:49:00,882 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 21:49:00,888 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:49:00,888 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:49:00,955 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:49:00,955 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 877 ms
-2020-10-14 21:49:01,182 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:49:01,406 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:49:01,455 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 21:49:01,458 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.841 seconds (JVM running for 3.189)
-2020-10-14 21:49:06,321 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:49:06,321 [SpringContextShutdownHook] WARN  e.p.study.demo.DemoApplication : closing application context...
-2020-10-14 21:49:55,960 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 1408 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:49:55,962 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
-2020-10-14 21:49:56,726 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 21:49:56,731 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:49:56,732 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:49:56,790 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:49:56,790 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 773 ms
-2020-10-14 21:49:56,981 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:49:57,143 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:49:57,180 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 21:49:57,182 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.548 seconds (JVM running for 2.086)
-2020-10-14 21:51:07,907 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 9068 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
-2020-10-14 21:51:07,909 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
-2020-10-14 21:51:08,702 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2020-10-14 21:51:08,708 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
-2020-10-14 21:51:08,709 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
-2020-10-14 21:51:08,774 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-10-14 21:51:08,774 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 833 ms
-2020-10-14 21:51:08,998 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:51:09,188 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-10-14 21:51:09,229 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2020-10-14 21:51:09,232 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.729 seconds (JVM running for 2.366)
-2020-10-14 21:51:10,792 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-14 21:51:10,793 [SpringContextShutdownHook] WARN  e.p.study.demo.DemoApplication : [pre-destroy] closing application context...
+2020-10-25 13:43:36,173 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 7024 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
+2020-10-25 13:43:36,178 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
+2020-10-25 13:43:37,055 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2020-10-25 13:43:37,063 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-25 13:43:37,063 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-25 13:43:37,136 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-25 13:43:37,136 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 925 ms
+2020-10-25 13:43:37,395 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-25 13:43:37,609 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-25 13:43:37,657 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-25 13:43:37,660 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.937 seconds (JVM running for 3.288)
+2020-10-25 13:43:48,383 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-25 13:43:48,384 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-25 13:43:48,388 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2020-10-25 13:43:48,412 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 13:43:48,419 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 13:44:01,154 [http-nio-8080-exec-4] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 13:44:27,234 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-25 13:44:27,235 [SpringContextShutdownHook] WARN  e.p.study.demo.DemoApplication : [pre-destroy] closing application context...
+2020-10-25 13:44:31,126 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 3100 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
+2020-10-25 13:44:31,128 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
+2020-10-25 13:44:31,844 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2020-10-25 13:44:31,851 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-25 13:44:31,851 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-25 13:44:31,916 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-25 13:44:31,916 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 735 ms
+2020-10-25 13:44:32,118 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-25 13:44:32,288 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-25 13:44:32,324 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-25 13:44:32,326 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.536 seconds (JVM running for 2.102)
+2020-10-25 13:44:38,012 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-25 13:44:38,012 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-25 13:44:38,015 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2020-10-25 13:44:38,036 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 13:44:38,043 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 13:44:44,487 [http-nio-8080-exec-2] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 13:44:46,790 [http-nio-8080-exec-3] INFO  e.p.s.demo.account.AccountService : update account
+2020-10-25 13:44:51,615 [http-nio-8080-exec-4] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 13:44:58,105 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 13:44:58,106 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 13:45:10,307 [http-nio-8080-exec-7] INFO  e.p.s.demo.account.AccountService : update account
+2020-10-25 13:45:19,051 [http-nio-8080-exec-6] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 13:45:23,733 [http-nio-8080-exec-8] INFO  e.p.s.demo.account.AccountService : update account
+2020-10-25 13:45:26,444 [http-nio-8080-exec-9] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:02:17,729 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 11424 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
+2020-10-25 14:02:17,732 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
+2020-10-25 14:02:18,527 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2020-10-25 14:02:18,534 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-25 14:02:18,534 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-25 14:02:18,604 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-25 14:02:18,604 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 841 ms
+2020-10-25 14:02:18,824 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-25 14:02:19,042 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-25 14:02:19,093 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-25 14:02:19,096 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.778 seconds (JVM running for 2.491)
+2020-10-25 14:02:47,277 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-25 14:02:47,278 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-25 14:02:47,282 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2020-10-25 14:02:47,305 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:02:47,311 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:02:51,246 [http-nio-8080-exec-2] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:02:51,246 [http-nio-8080-exec-2] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:02:59,863 [http-nio-8080-exec-3] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:02,115 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:02,116 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:03:06,130 [http-nio-8080-exec-4] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:06,131 [http-nio-8080-exec-4] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:03:15,348 [http-nio-8080-exec-7] INFO  e.p.s.demo.account.AccountService : update account
+2020-10-25 14:03:16,995 [http-nio-8080-exec-8] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:19,090 [http-nio-8080-exec-6] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:27,555 [http-nio-8080-exec-10] INFO  e.p.s.demo.account.AccountService : update account
+2020-10-25 14:03:29,692 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:29,693 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:03:35,999 [http-nio-8080-exec-2] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:39,113 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:03:39,114 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:04:13,447 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-25 14:04:13,448 [SpringContextShutdownHook] WARN  e.p.study.demo.DemoApplication : [pre-destroy] closing application context...
+2020-10-25 14:04:16,343 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 12420 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
+2020-10-25 14:04:16,345 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
+2020-10-25 14:04:17,080 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2020-10-25 14:04:17,085 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-25 14:04:17,086 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-25 14:04:17,148 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-25 14:04:17,149 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 746 ms
+2020-10-25 14:04:17,350 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-25 14:04:17,526 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-25 14:04:17,564 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-25 14:04:17,566 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.545 seconds (JVM running for 2.074)
+2020-10-25 14:04:22,678 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-25 14:04:22,679 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-25 14:04:22,682 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2020-10-25 14:04:22,702 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:04:22,708 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:04:30,667 [http-nio-8080-exec-3] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:04:31,364 [http-nio-8080-exec-4] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:11:07,658 [main] INFO  e.p.study.demo.DemoApplication : Starting DemoApplication on developer1997 with PID 9820 (C:\develop\workspace\springboot-cache-basis\build\classes\java\main started by pasudo123 in C:\develop\workspace\springboot-cache-basis)
+2020-10-25 14:11:07,660 [main] INFO  e.p.study.demo.DemoApplication : The following profiles are active: dev
+2020-10-25 14:11:08,370 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2020-10-25 14:11:08,376 [main] INFO  o.a.catalina.core.StandardService : Starting service [Tomcat]
+2020-10-25 14:11:08,376 [main] INFO  o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-25 14:11:08,439 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2020-10-25 14:11:08,440 [main] INFO  o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 722 ms
+2020-10-25 14:11:08,635 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-25 14:11:08,806 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-25 14:11:08,843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-25 14:11:08,845 [main] INFO  e.p.study.demo.DemoApplication : Started DemoApplication in 1.501 seconds (JVM running for 2.032)
+2020-10-25 14:11:10,709 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-25 14:11:10,709 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2020-10-25 14:11:10,713 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2020-10-25 14:11:10,733 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:11:10,738 [http-nio-8080-exec-1] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...
+2020-10-25 14:11:14,383 [http-nio-8080-exec-2] INFO  e.p.s.demo.account.AccountService : update account
+2020-10-25 14:11:19,306 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountController : Account Controller come in ...
+2020-10-25 14:11:19,306 [http-nio-8080-exec-5] INFO  e.p.s.demo.account.AccountService : 5초간 sleep ...

@@ -20,4 +20,14 @@ public class AccountController {
         log.info("Account Controller come in ...");
         return accountService.getAccountById(id);
     }
+
+    @GetMapping("/update/{id}")
+    public Account updateAccount(@PathVariable("id") long id) {
+        return accountService.updateAccountById(id);
+    }
+
+    @GetMapping("/delete")
+    public String deleteAllAccount() {
+        return accountService.deleteAllAccount();
+    }
 }
